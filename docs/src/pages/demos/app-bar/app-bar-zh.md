@@ -37,3 +37,7 @@ components: 应用栏, 工具栏, 菜单
 ## Dense (仅限桌面)
 
 {{"demo": "pages/demos/app-bar/DenseAppBar.js"}}
+
+## Bottom App Bar
+
+{{"demo": "pages/demos/app-bar/BottomAppBar.js"}}

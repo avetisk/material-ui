@@ -19,7 +19,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 {{"演示": "pages/demos/buttons/TextButtons.js"}}
 
-## 轮廓按钮
+## 描边按钮
 
 [描边按钮](https://material.io/design/components/buttons.html#outlined-button) 是中等强调按钮。 它们包含重要的操作， 但不是应用程序中的主要操作。
 
@@ -89,7 +89,7 @@ components: 按钮、图标按钮、基础按钮、缩放
 
 ## 第三方路由库
 
-一个常见的用例是使用按钮触发导航到新页面。 `ButtonBase` 组件提供了一个处理此用例的属性：`component`。 鉴于我们的许多交互式组件都依赖于 `ButtonBase`，你应该这样做 能够在任何地方利用它：
+一个常见的用例是使用按钮触发导航到新页面。 `ButtonBase` 组件提供了一个处理此用例的属性：`component`。 鉴于我们的许多交互式组件都依赖于 `ButtonBase`，你几乎可以在所有地方用到它的好处：
 
 ```jsx
 import { Link } from 'react-router-dom'
