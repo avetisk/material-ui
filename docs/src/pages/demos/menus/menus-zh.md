@@ -4,13 +4,13 @@ components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
 ---
 # 菜单
 
-<p class="description">菜单显示在临时出现的所点击位置上的选项列表。</p>
+<p class="description">菜单通过一个临时出现的界面来显示选项列表。</p>
 
-[菜单](https://material.io/design/components/menus.html)显示临时表面上的选择列表。
+[菜单](https://material.io/design/components/menus.html)通过一个临时出现的界面来显示选项列表。通常当用户与按钮，操作或其他控件交互时出现。
 
-## 简单菜单
+## 基本菜单
 
-默认情况下, 简单菜单会在锚点元素上打开 (此选项可通过props更改)。当靠近屏幕边缘时, 简单菜单会垂直调整以使所有菜单项完全可见。
+默认情况下, 基本菜单会在锚点元素上打开 (此选项可通过props更改)。当靠近屏幕边缘时, 简单菜单会垂直调整以使所有菜单项完全可见。
 
 选择一个选项后, 最好立即提交该选项并关闭菜单。
 
