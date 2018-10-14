@@ -2,7 +2,7 @@
 title: 自动补全React组件
 components: TextField, Paper, MenuItem, Popper
 ---
-# Autocomplete
+# 自动补全
 
 <p class="description">自动补全是一个普通文本输入框通过一组建议选项来帮助用户输入。</p>
 
