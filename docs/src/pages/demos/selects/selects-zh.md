@@ -1,6 +1,6 @@
 ---
 title: React 选择器组件
-components: 选择器，原生的选择器
+components: Select, NativeSelect
 ---
 # 选择器
 
