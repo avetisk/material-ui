@@ -50,10 +50,10 @@ components: 菜单, 菜单项, 菜单列表, 点击监听器, 弹出框, Popper
 
 使用不同的过渡动画。
 
-{{"demo": "pages/demos/menus/FadeMenu.js"}}
+{{"演示": "pages/demos/menus/FadeMenu.js"}}
 
 ## Render Props
 
-It is a [render props](https://reactjs.org/docs/render-props.html) demo that keeps track of the local state for a single menu.
+这是[render props](https://reactjs.org/docs/render-props.html) 的例子。跟踪单个菜单的本地状态。
 
-{{"demo": "pages/demos/menus/RenderPropsMenu.js"}}
+{{"演示": "pages/demos/menus/RenderPropsMenu.js"}}
