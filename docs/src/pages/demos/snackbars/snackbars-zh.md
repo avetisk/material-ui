@@ -40,7 +40,7 @@ Change the direction of the transition. Slide is the default transition.
 
 {{"demo": "pages/demos/snackbars/DirectionSnackbar.js"}}
 
-### Change Transition
+### 更改过渡动画
 
 Use a different transition all together.
 
