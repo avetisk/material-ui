@@ -1,8 +1,8 @@
 ---
 title: React 徽章组件
-components: 徽章
+components: Badge
 ---
-# 徽章
+# Badge
 
 <p class="description">徽章会在其子项的右上角生成一个小徽章。</p>
 
