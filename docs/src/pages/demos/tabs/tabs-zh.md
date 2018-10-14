@@ -28,7 +28,7 @@ Long labels will automatically wrap on tabs. If the label is too long for the ta
 
 ## 固定选项卡
 
-Fixed tabs should be used with a limited number of tabs and when consistent placement will aid muscle memory.
+固定标签应与有限数量的标签一起使用, 并且一致的放置将有助于肌肉记忆.
 
 ### 100%宽度
 
@@ -38,13 +38,13 @@ The `fullWidth` property should be used for smaller views. This demo also uses [
 
 ### 居中对齐
 
-The `centered` property should be used for larger views.
+应将 `centered` 属性用于较大的视图.
 
 {{"demo": "pages/demos/tabs/CenteredTabs.js"}}
 
 ## 可滚动的选项卡
 
-### Automatic Scroll Buttons
+### 自动滚动按钮
 
 Left and right scroll buttons will automatically be presented on desktop and hidden on mobile. (based on viewport width)
 
