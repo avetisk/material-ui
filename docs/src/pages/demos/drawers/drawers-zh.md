@@ -10,7 +10,7 @@ components: Drawer, SwipeableDrawer
 
 [Side sheets](https://material.io/design/components/sheets-side.html) are supplementary surfaces primarily used on tablet and desktop.
 
-## Temporary drawer
+## 临时抽屉
 
 Temporary navigation drawers can toggle open or closed. Closed by default, the drawer opens temporarily above all other content until a section is selected.
 
