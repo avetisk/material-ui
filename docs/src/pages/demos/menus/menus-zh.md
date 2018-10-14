@@ -18,37 +18,37 @@ components: 菜单, 菜单项, 菜单列表, 点击监听器, 弹出框, Popper
 
 {{"演示": "pages/demos/menus/SimpleMenu.js"}}
 
-## Selected menus
+## 选择菜单
 
-If used for item selection, when opened, simple menus attempt to vertically align the currently selected menu item with the anchor element. The currently selected menu item is set using the `selected` property (from [ListItem](/api/list-item/)).
+如果用于项目选择, 则在打开时, 简单菜单将尝试将当前选定的菜单项与定位元素垂直对齐。 当前选择的菜单项使用` selected `属性（从[ListItem](/api/list-item/))。
 
-{{"demo": "pages/demos/menus/SimpleListMenu.js"}}
+{{"演示": "pages/demos/menus/SimpleListMenu.js"}}
 
-If text in a simple menu wraps to a second line, use a simple dialog instead. Simple dialogs can have rows with varying heights.
+如果简单菜单中的文本覆盖到第二行，则使用简单对话框代替。简单对话框可以具有不同高度的行。
 
-## Max height menus
+## 有最大高的菜单
 
-If the height of a menu prevents all menu items from being displayed, the menu can scroll internally.
+如果菜单的高度阻止显示所有菜单项，则菜单可以在内部滚动
 
-{{"demo": "pages/demos/menus/LongMenu.js"}}
+{{"演示": "pages/demos/menus/LongMenu.js"}}
 
-## MenuList composition
+## 菜单列表的组成
 
-The `Menu` component uses the `Popover` component internally. However, you might want to use a different positioning strategy, or not blocking the scroll. For answering those needs, we expose a `MenuList` component that you can compose, with `Popper` in this example.
+`Menu`组件内部使用`Popver`组件 但是，您可能希望使用不同的定位策略，或者不阻塞滚动。 为了满足这些需求，我们公开了一个`MenuList`组件，您可以使用这个示例中的`Popper`来编写该组件。
 
-The primary responsibility of the `MenuList` component is to handle the focus.
+`MenuList`组件的主要职责是处理焦点。
 
-{{"demo": "pages/demos/menus/MenuListComposition.js"}}
+{{"演示": "pages/demos/menus/MenuListComposition.js"}}
 
-## Customized MenuItem
+## 定制菜单项
 
-The `MenuItem` is a wrapper around `ListItem` with some additional styles. You can use the same list composition features with the `MenuItem` component:
+`MenuItem`是 `ListItem`附带的一些附加样式的包装器。 可以使用`MenuItem`组件使用相同的列表组合特性：
 
-{{"demo": "pages/demos/menus/ListItemComposition.js"}}
+{{"演示": "pages/demos/menus/ListItemComposition.js"}}
 
-## Change Transition
+## 更改过渡动画
 
-Use a different transition altogether.
+使用不同的过渡动画。
 
 {{"demo": "pages/demos/menus/FadeMenu.js"}}
 
