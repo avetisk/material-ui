@@ -4,7 +4,7 @@ components: Tabs, Tab
 ---
 # Tab选项卡
 
-<p class="description">Tabs make it easy to explore and switch between different views.</p>
+<p class="description">选项卡可以轻松浏览和切换不同的视图.</p>
 
 [Tabs](https://material.io/design/components/tabs.html) organize and allow navigation between groups of content that are related and at the same level of hierarchy.
 
@@ -22,11 +22,11 @@ Long labels will automatically wrap on tabs. If the label is too long for the ta
 
 ### 禁用的选项卡
 
-A Tab can be disabled by setting `disabled` property.
+可以通过设置 `property` 属性来禁用选项卡>.
 
 {{"demo": "pages/demos/tabs/DisabledTabs.js"}}
 
-## Fixed Tabs
+## 固定选项卡
 
 Fixed tabs should be used with a limited number of tabs and when consistent placement will aid muscle memory.
 
