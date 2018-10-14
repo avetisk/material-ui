@@ -16,13 +16,13 @@ Material Design 颜色系统可用于创建反映您的品牌或风格的颜色�
 
 #### "Hue" & "Shade"
 
-调色板中的单一颜色由色相如 "red" 和阴影如 "500"组成。 "rad 50" 是红色的最浅的阴影 (* 粉红色! *), 而 "red 900" 是最暗的。 此外, 大多数色调都带有 "accent" 色调, 以 ` A ` 为前缀。
+调色板中的单一颜色由色相如 "red" 和阴影如 "500"组成。 "rad 50" 是红色的最浅的阴影 (* 粉红色! *), 而 "red 900" 是最暗的。 此外, 大多数色调都带有强调色调, 以 ` A ` 为前缀。
 
 ### Examples
 
-The Material Design color palette comprises primary and accent colors that can be used for illustration or to develop your brand colors. They’ve been designed to work harmoniously with each other.
+Material Design调色板包括主要和强调颜色, 可用于插图或开发您的品牌颜色. 他们被设计成彼此和谐地工作.
 
-For instance, you can refer to complementary primary and accent colors (for example 'red 500' & 'purple A200'), like so:
+例如, 您可以参考互补的主要和强调颜色 (例如 "red 500" & "purple A200"), 如下所示:
 
 ```js
 import purple from '@material-ui/core/colors/purple';
@@ -30,7 +30,7 @@ import red from '@material-ui/core/colors/red';
 
 const primary = red[500]; // #F44336
 const accent = purple['A200']; // #E040FB
-const accent2 = purple.A200; // #E040FB (alternative method)
+const accent2 = purple.A200; // #E040FB (代替方法)
 ```
 
 ## Color tool
@@ -97,6 +97,6 @@ const theme = createMuiTheme({
 
 ## Color palette
 
-This color palette comprises primary and accent colors that can be used for illustration or to develop your brand colors. They’ve been designed to work harmoniously with each other.
+This color palette comprises primary and accent colors that can be used for illustration or to develop your brand colors. 他们被设计成彼此和谐地工作.
 
 {{"demo": "pages/style/color/Color.js", "hideHeader": true}}
