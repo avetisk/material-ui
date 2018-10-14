@@ -1,6 +1,6 @@
 ---
 title: 工具提示 React 组件
-components: 工具提示
+components: Tooltip
 ---
 # 工具提示
 
