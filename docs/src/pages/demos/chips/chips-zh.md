@@ -1,6 +1,6 @@
 ---
 title: React纸片组件
-components: 纸片
+components: Chip
 ---
 # 纸片
 
