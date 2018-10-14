@@ -26,7 +26,7 @@ components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
 
 如果基本菜单中的文本一行无法显示完，则使用基本对话框来代替。基本对话框可以有不同高度的行。
 
-## 有最大高的菜单
+## 限高菜单
 
 如果菜单的最大高度仍无法显示所有菜单项，则菜单可以在内部滚动。
 
@@ -34,7 +34,7 @@ components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
 
 ## 菜单列表的组成
 
-`Menu`组件内部使用`Popver`组件 但是，您可能希望使用不同的定位策略，或者不阻塞滚动。 为了满足这些需求，我们公开了一个`MenuList`组件，您可以使用这个示例中的`Popper`来编写该组件。
+`Menu`组件内部使用`Popver`组件 但是，您可能想药使用不同的定位策略，或者你不想禁止滚动。 为了满足这些需求，我们公开了一个`MenuList`组件，让你可以像下面例子中这样组合`Popper`来编写自己的菜单组件。
 
 `MenuList`组件的主要职责是处理焦点。
 
