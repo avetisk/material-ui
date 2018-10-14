@@ -32,7 +32,7 @@ components: 选择器，原生的选择器
 
 {{"演示": "pages/demos/selects/DialogSelect.js"}}
 
-## Text Fields组件
+## Text Fields
 
 ` TextField `包装器组件是一个完整的表单控件，包括标签，输入和帮助文本。 您可以在本节中找到具有[select模式](/demos/text-fields/#textfield)的示例
 
