@@ -35,11 +35,11 @@ const accent2 = purple.A200; // #E040FB (代替方法)
 
 ## Color tool
 
-To test a [material.io/color](https://material.io/design/color/) color scheme with the Material-UI documentation, simply select colors using the palette and sliders below. Alternatively, you can enter hex values in the Primary and Secondary text fields.
+使用Material-UI文档测试[material.io/color](https://material.io/design/color/)颜色方案,只需使用下面的调色板和滑块选择颜色. 或者, 您可以在“Primary”和“Secondary”文本字段中输入十六进制值.
 
 {{"demo": "pages/style/color/ColorTool.js", "hideHeader": true}}
 
-The output shown in the color sample can be pasted directly into a [`createMuiTheme()`](/customization/themes/#createmuitheme-options-theme) function (to be used with [`MuiThemeProvider`](/customization/themes/#theme-provider)):
+颜色样本中显示的输出可以直接粘贴到[` createMuiTheme()`](/customization/themes/#createmuitheme-options-theme)函数中与([` MuiThemeProvider`](/customization/themes/#theme-provider)一起使用);
 
 ```jsx
 import { createMuiTheme } from '@material-ui/core/styles';
