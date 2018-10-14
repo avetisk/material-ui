@@ -1,22 +1,22 @@
 ---
-title: Menu React component
-components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
+title: React 菜单组件
+components: 菜单, 菜单项, 菜单列表, 点击监听器, 弹出框, Popper
 ---
-# Menus
+# 菜单
 
-<p class="description">Menus display a list of choices on temporary surfaces.</p>
+<p class="description">菜单显示在临时出现的所点击位置上的选项列表。</p>
 
-A [Menu](https://material.io/design/components/menus.html) displays a list of choices on a temporary surface. They appear when users interact with a button, action, or other control.
+[菜单](https://material.io/design/components/menus.html)显示临时表面上的选择列表。
 
-## Simple Menu
+## 简单菜单
 
-Simple menus open over the anchor element by default (this option can be changed via props). When close to a screen edge, simple menus vertically realign to make all menu items are completely visible.
+默认情况下, 简单菜单会在锚点元素上打开 (此选项可通过props更改)。当靠近屏幕边缘时, 简单菜单会垂直调整以使所有菜单项完全可见。
 
-Choosing an option should immediately ideally commit the option and close the menu.
+选择一个选项后, 最好立即提交该选项并关闭菜单。
 
-**Disambiguation**: In contrast to simple menus, simple dialogs can present additional detail related to the options available for a list item or provide navigational or orthogonal actions related to the primary task. Although they can display the same content, simple menus are preferred over simple dialogs because simple menus are less disruptive to the user’s current context.
+**解疑**: 与简单菜单相比, 简单对话框可以显示与列表项可用选项相关的其他详细信息, 或提供导航或正交操作与主要任务相关。 虽然它们可以显示相同的内容, 但简单的菜单比简单的对话框更可取, 因为简单的菜单对用户当前上下文的破坏性较小。
 
-{{"demo": "pages/demos/menus/SimpleMenu.js"}}
+{{"演示": "pages/demos/menus/SimpleMenu.js"}}
 
 ## Selected menus
 
