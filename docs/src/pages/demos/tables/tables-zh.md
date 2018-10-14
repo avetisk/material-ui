@@ -30,21 +30,21 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 此示例演示了 `复选框` 和单击选择行的用法, 该表格具有自定义的 `Toolbar`。 该示例使用 `TableSortLabel` 组件来辅助实现列标题的样式效果。
 
-The Table has been given a fixed width to demonstrate horizontal scrolling. In order to prevent the pagination controls from scrolling, the TablePagination component is used outside of the Table. (The ['Custom Table Pagination Action' example](#custom-table-pagination-action) below shows the pagination within the TableFooter.)
+此表已给定了固定宽度以演示水平滚动. 为了防止分页控件滚动, TablePagination组件在Table外部使用. (The ['Custom Table Pagination Action' example](#custom-table-pagination-action) below shows the pagination within the TableFooter.)
 
 {{"demo": "pages/demos/tables/EnhancedTable.js"}}
 
 ## 自定义表格分页行为
 
-The `Action` property of the `TablePagination` component allows the implementation of custom actions.
+`TablePagination`组件的`Action` 属性允许实现自定义行为.
 
 {{"demo": "pages/demos/tables/CustomPaginationActionsTable.js"}}
 
 ## 自定义表格
 
-You can customize the look and feel of the table by overriding the styles of the `TableCell` component.
+您可以通过覆盖` TableCell`组件的样式来自定义表格的外观.
 
-{{"演示": "pages/demos/badges/SimpleBadge.js"}}
+{{"demo": "pages/demos/tables/CustomizedTable.js"}}
 
 ## Advanced use cases
 
