@@ -1,8 +1,8 @@
 ---
-title: FilledInput, FormControl, FormHelperText, Input, InputAdornment, InputBase, InputLabel, OutlinedInput, TextField
+title: Text Field React component
 components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, InputBase, InputLabel, OutlinedInput, TextField
 ---
-# Text Fields组件
+# Text Fields
 
 <p class="description">用户可以在文本框内输入或编辑文字</p>
 
