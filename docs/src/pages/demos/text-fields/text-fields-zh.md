@@ -44,13 +44,13 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 {{"demo": "pages/demos/text-fields/TextFieldMargins.js"}}
 
-## Input Adornments
+## 输入装饰
 
-`Input` 允许提供`InputAdornment`. These can be used to add a prefix, a suffix or an action to an input. For instance, you can use an icon button to hide or reveal the password.
+`Input` 允许提供`InputAdornment`. 这些可用于向输入添加前缀、后缀或动作. 例如, 您可以使用图标按钮来隐藏或显示密码.
 
 {{"demo": "pages/demos/text-fields/InputAdornments.js"}}
 
-## Filled Input Adornments
+## 填充输入装饰品
 
 {{"demo": "pages/demos/text-fields/FilledInputAdornments.js"}}
 
@@ -60,7 +60,7 @@ components: FilledInput, FormControl, FormHelperText, Input, InputAdornment, Inp
 
 ## 格式化输入
 
-You can use third-party libraries to format an input. You have to provide a custom implementation of the `<input>` element with the `inputComponent` property.
+您可以使用第三方库来格式化输入.您必须使用` inputComponent `属性提供`<input>` 元素的自定义实现.
 
 下面的演示使用 [react-text-mask](https://github.com/text-mask/text-mask)和 [react-number-format](https://github.com/s-yadav/react-number-format) 库。
 
@@ -72,7 +72,7 @@ You can use third-party libraries to format an input. You have to provide a cust
 
 {{"demo": "pages/demos/text-fields/CustomizedInputs.js"}}
 
-## With icon
+## 使用图标
 
 图标可以指定为预置或追加。
 
