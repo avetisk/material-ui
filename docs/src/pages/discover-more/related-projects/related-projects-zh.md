@@ -1,10 +1,10 @@
-# Related projects
+# 相关项目
 
 <p class="description">We have built a carefully curated collection of libraries that worth giving a look.</p>
 
-Because the scope of problems Material-UI solves is limited, we try to play nicely with other libraries. Feel free to submit a pull request to add more projects; we will accept them if they match our criteria.
+因为Material-UI解决的问题范围有限，我们尝试与其他库很好地协作. 随意提交pull请求添加更多项目; 如果符合我们的标准, 我们将接受他们。
 
-## Material-UI Specific Projects
+## Material-UI 特定项目
 
 - [create-mui-theme](https://react-theming.github.io/create-mui-theme/) Online tool for creating Material-UI themes via Material Design Color Tool
 - [dx-react-chart-material-ui](https://devexpress.github.io/devextreme-reactive/react/chart/) A chart for Material-UI that visualizes data using a variety of series types, including bar, line, area, scatter, pie, and more ([custom license](https://js.devexpress.com/licensing/)).
