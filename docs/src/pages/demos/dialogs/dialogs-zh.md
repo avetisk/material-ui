@@ -1,6 +1,6 @@
 ---
 title: React对话框组件
-components: 对话框、对话框标题、对话框内容、对话框内容文本、对话框操作、幻灯片
+components: Dialog, DialogTitle, DialogContent, DialogContentText, DialogActions, Slide
 ---
 # 对话框
 
