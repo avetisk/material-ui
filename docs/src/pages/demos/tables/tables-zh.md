@@ -30,7 +30,7 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 此示例演示了 `复选框` 和单击选择行的用法, 该表格具有自定义的 `Toolbar`。 该示例使用 `TableSortLabel` 组件来辅助实现列标题的样式效果。
 
-此表已给定了固定宽度以演示水平滚动. 为了防止分页控件滚动, TablePagination组件在Table外部使用. (The ['Custom Table Pagination Action' example](#custom-table-pagination-action) below shows the pagination within the TableFooter.)
+此表已给定了固定宽度以演示水平滚动. 为了防止分页控件滚动, TablePagination组件在Table外部使用. (下面的[自定义表分页操作示例](#custom-table-pagination-action)显示了TableFooter中的分页.)
 
 {{"demo": "pages/demos/tables/EnhancedTable.js"}}
 
@@ -48,4 +48,4 @@ components: Table, TableBody, TableCell, TableFooter, TableHead, TablePagination
 
 ## Advanced use cases
 
-For more advanced use cases you might be able to take advantage of: - [dx-react-grid-material-ui](https://devexpress.github.io/devextreme-reactive/react/grid/) A data grid for Material-UI with paging, sorting, filtering, grouping and editing features ([custom license](https://js.devexpress.com/licensing/)). - [mui-datatables](https://github.com/gregnb/mui-datatables) Responsive data tables for Material-UI with filtering, sorting, search and more. - [material-table](https://github.com/mbrn/material-table) DataTable based on table component with additional features like search, filtering, sorting and much more.
+对于更高级的情况，您也许可以利用:- [ dx-react-grid-material-ui ](https://devexpress.github.io/devextreme-reactive/react/grid/) Material-UI的数据表格,具有分页，排序功能,过滤,分组和编辑功能([自定义许可](https://js.devexpress.com/licensing/)). - [mui-datatables](https://github.com/gregnb/mui-datatables)Material-UI的响应式数据表格,包括过滤,排序,搜索等功能. - [material-table](https://github.com/mbrn/material-table) DataTable基于table组件, 具有搜索,过滤,排序等附加功能.
