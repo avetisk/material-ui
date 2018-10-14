@@ -1,6 +1,6 @@
 ---
 title: 应用栏React组件
-components: 应用栏, 工具栏, 菜单
+components: AppBar, Toolbar, Menu
 ---
 # 应用栏
 
