@@ -1,6 +1,6 @@
 ---
 title: React 菜单组件
-components: 菜单, 菜单项, 菜单列表, 点击监听器, 弹出框, Popper
+components: Menu, MenuItem, MenuList, ClickAwayListener, Popover, Popper
 ---
 # 菜单
 
