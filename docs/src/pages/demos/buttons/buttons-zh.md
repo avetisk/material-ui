@@ -1,6 +1,6 @@
 ---
 title: React 按钮组件
-components: 按钮、图标按钮、基础按钮、缩放
+components: Button, IconButton, ButtonBase, Zoom
 ---
 # 按钮
 
