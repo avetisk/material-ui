@@ -12,7 +12,7 @@ components: Drawer, SwipeableDrawer
 
 ## 临时抽屉
 
-Temporary navigation drawers can toggle open or closed. Closed by default, the drawer opens temporarily above all other content until a section is selected.
+临时导航抽屉可以打开或关闭。默认情况下关闭，抽屉打开会暂时在所有其他内容之上，直到选择一个部分。
 
 The Drawer can be cancelled by clicking the overlay or pressing the Esc key. It closes when an item is selected, handled by controlling the `open` prop.
 
