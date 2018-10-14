@@ -29,7 +29,7 @@ export default MyApp;
 
 The `<html>` and `<body>` elements are updated to provide better page-wide defaults. More specifically: - The margin in all browsers is removed. - The default Material Design background color is applied. It's using [`theme.palette.background.default`](/customization/default-theme/?expend-path=$.palette.background) for standard devices and a white background for print devices.
 
-### Layout
+### 布局
 
 - `box-sizing` is set globally on the `<html>` element to `border-box`. Every element—including `*::before` and `*::after` are declared to inherit this property, which ensures that the declared width of the element is never exceeded due to padding or border.
 
