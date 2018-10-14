@@ -34,7 +34,7 @@ The `createRender()` function is ideal for this. This is just an alias for the e
 
 ### `createShallow([options]) => shallow`
 
-Generate an enhanced shallow function with the needed context. Please refer to the [enzyme API documentation](https://airbnb.io/enzyme/docs/api/shallow.html) for further details on the `shallow` function.
+Generate an enhanced shallow function with the needed context. 有关 `shallow`函数的更多详细信息, 请参考[enzyme API 文档 ](https://airbnb.io/enzyme/docs/api/shallow.html),
 
 #### Arguments
 
