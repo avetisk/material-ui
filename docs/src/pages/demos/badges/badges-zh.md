@@ -10,8 +10,8 @@ components: Badge
 
 包含文本的徽章示例，使用主要和次要颜色。 徽章会被应用于其子项组件上。
 
-{{"演示": "pages/demos/badges/SimpleBadge.js"}}
+{{"demo": "pages/demos/badges/SimpleBadge.js"}}
 
 ## 自定义徽章
 
-{{"演示": "pages/demos/badges/CustomizedBadge.js"}}
+{{"demo": "pages/demos/badges/CustomizedBadge.js"}}
