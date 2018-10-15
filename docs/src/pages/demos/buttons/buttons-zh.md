@@ -17,7 +17,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 在卡片中，文本按钮有助于在卡片内容之上强调按钮的存在。
 
-{{"演示": "pages/demos/buttons/TextButtons.js"}}
+{{"demo": "pages/demos/buttons/TextButtons.js"}}
 
 ## 描边按钮
 
@@ -27,7 +27,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 描边按钮也可以用来作为比实心按钮次要一点按钮方案， 或者用来作为比文本按钮重要一点的按钮方案。
 
-{{"演示": "pages/demos/buttons/OutlinedButtons.js"}}
+{{"demo": "pages/demos/buttons/OutlinedButtons.js"}}
 
 ## 实心按钮
 
@@ -35,7 +35,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 此演示的最后一个示例显示了如何使用上传按钮。
 
-{{"演示": "pages/demos/buttons/ContainedButtons.js"}}
+{{"demo": "pages/demos/buttons/ContainedButtons.js"}}
 
 ## 浮动操作按钮
 
@@ -45,7 +45,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 每个屏幕建议只有一个浮动操作按钮来表示最常见的操作。
 
-{{"演示": "pages/demos/buttons/FloatingActionButtons.js"}}
+{{"demo": "pages/demos/buttons/FloatingActionButtons.js"}}
 
 默认情况下，浮动操作按钮会以展开的动画出现在屏幕上。
 
@@ -53,7 +53,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 可以使用缩放转换来实现此目的。 注意，既然退出和进入 动画同时被触发，我们使用`enterDelay`来允许旧的浮动动作按钮动画在新按钮进入之前完成。
 
-{{"暗示": "pages/demos/buttons/FloatingActionButtonZoom.js"}}
+{{"demo": "pages/demos/buttons/FloatingActionButtonZoom.js"}}
 
 ## 图标按钮
 
@@ -61,7 +61,7 @@ components: Button, IconButton, ButtonBase, Zoom
 
 图标也适用于允许选择单个选项的切换按钮或 取消选择，例如向项目添加或删除星标。
 
-{{"演示": "pages/demos/buttons/IconButtons.js"}}
+{{"demo": "pages/demos/buttons/IconButtons.js"}}
 
 ## 尺寸
 
@@ -79,13 +79,13 @@ components: Button, IconButton, ButtonBase, Zoom
 
 如果您有阅读[“重写”文档](/customization/overrides/) 但你还不是很自信能够完全掌握， 以下是一些示例，包括使用classes属性更改Button的主要颜色， 直接使用主题和使用Bootstrap样式按钮。
 
-{{"演示": "pages/demos/buttons/CustomizedButtons.js"}}
+{{"demo": "pages/demos/buttons/CustomizedButtons.js"}}
 
 ## 复杂按钮
 
 文本按钮，包含按钮，浮动操作按钮和图标按钮构建在同一组件之上：`ButtonBase`。 您可以利用此较底层的组件来构建自定义交互。
 
-{{"演示": "pages/demos/buttons/ButtonBases.js"}}
+{{"demo": "pages/demos/buttons/ButtonBases.js"}}
 
 ## 第三方路由库
 
