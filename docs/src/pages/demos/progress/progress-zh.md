@@ -89,7 +89,7 @@ function Progress(props) {
 
 ## 局限性
 
-Under heavy load, you might lose the stroke dash animation or see random CircularProgress ring widths. You should run processor intensive operations in a web worker or by batch in order not to block the main rendering thread.
+在特别慢的加载时，可能丢失stroke dash动画或看到环形进度的半径随机的情况。 You should run processor intensive operations in a web worker or by batch in order not to block the main rendering thread.
 
 ![heavy load](/static/images/progress/heavy-load.gif)
 
