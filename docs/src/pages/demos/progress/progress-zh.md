@@ -1,5 +1,5 @@
 ---
-title: Circular Progress, Linear Progress React component
+title: 环形进度、线状进度React组件
 components: CircularProgress, LinearProgress
 ---
 # 进度
@@ -83,11 +83,11 @@ function Progress(props) {
 
 ## 延迟展现
 
-关于响应时间，有 [3个重要限制](https://www.nngroup.com/articles/response-times-3-important-limits/)。 The ripple effect of the `ButtonBase` component ensures that the user feels that the system is reacting instantaneously. Normally, no special feedback is necessary during delays of more than 0.1 but less than 1.0 second. After 1.0 second, you can display a loader to keep user's flow of thought uninterrupted.
+关于响应时间，有 [3个重要限制](https://www.nngroup.com/articles/response-times-3-important-limits/)。 `ButtonBase`组件的波纹效果确保用户感受到系统是实时反馈的。 通常情况下，在多余0.1秒且小于1.0秒期间不需要特殊的反馈。 在1.0秒后，你可以显示一个加载器来保持用户的思考流程不被打断。
 
 {{"demo": "pages/demos/progress/DelayingAppearance.js"}}
 
-## Limitations
+## 局限性
 
 Under heavy load, you might lose the stroke dash animation or see random CircularProgress ring widths. You should run processor intensive operations in a web worker or by batch in order not to block the main rendering thread.
 
