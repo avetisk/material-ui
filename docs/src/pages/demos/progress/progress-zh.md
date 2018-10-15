@@ -12,7 +12,7 @@ components: CircularProgress, LinearProgress
 
 **未确定**指示器可视化一个不确定的操作等待时间。
 
-#### Progress as a group
+#### 进度指示器组
 
 When displaying progress for a sequence of processes, indicate overall progress rather than the progress of each activity.
 
