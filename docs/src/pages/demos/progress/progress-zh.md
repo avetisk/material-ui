@@ -89,8 +89,8 @@ function Progress(props) {
 
 ## 局限性
 
-在特别慢的加载时，可能丢失stroke dash动画或看到环形进度的半径随机的情况。 You should run processor intensive operations in a web worker or by batch in order not to block the main rendering thread.
+在特别慢的加载时，可能丢失stroke dash动画或看到环形进度的半径随机的情况。 为了不阻塞主渲染进程，应该在web worker中或批处理中执行密集操作的处理器。
 
-![heavy load](/static/images/progress/heavy-load.gif)
+![慢加载](/static/images/progress/heavy-load.gif)
 
-See https://github.com/mui-org/material-ui/issues/10327
+见 https://github.com/mui-org/material-ui/issues/10327
