@@ -14,54 +14,54 @@ components: CircularProgress, LinearProgress
 
 #### 进度指示器组
 
-When displaying progress for a sequence of processes, indicate overall progress rather than the progress of each activity.
+当显示一系列过程的进度时，表示全部的过程而不是每个单独活动的进度。
 
-## Circular
+## 环形的
 
-[Circular progress](https://material.io/design/components/progress-indicators.html#circular-progress-indicators) support both determinate and indeterminate processes.
+[圆形进度指示器](https://material.io/design/components/progress-indicators.html#circular-progress-indicators)支持确定过程和不确定过程。
 
-- **Determinate** circular indicators fill the invisible, circular track with color, as the indicator moves from 0 to 360 degrees.
-- **Indeterminate** circular indicators grow and shrink in size while moving along the invisible track.
+- **确定的** 环形指示器填充不可见区域，以颜色环形追踪，作为指示器从0至360度移动。
+- **不确定** 环形指示器在沿着不可见轨道移动时，随之变大变小。
 
-### Circular Indeterminate
+### 不确定环形
 
 {{"demo": "pages/demos/progress/CircularIndeterminate.js"}}
 
-### Interactive Integration
+### 交互集成
 
 {{"demo": "pages/demos/progress/CircularIntegration.js"}}
 
-### Circular Determinate
+### 确定环形
 
 {{"demo": "pages/demos/progress/CircularDeterminate.js"}}
 
-### Circular Static
+### 静态环形
 
 {{"demo": "pages/demos/progress/CircularStatic.js"}}
 
-## Linear
+## 线状
 
-[Linear progress](https://material.io/design/components/progress-indicators.html#linear-progress-indicators) indicators.
+[线状进度](https://material.io/design/components/progress-indicators.html#linear-progress-indicators) 指示器.
 
-### Linear Indeterminate
+### 不确定线状
 
 {{"demo": "pages/demos/progress/LinearIndeterminate.js"}}
 
-### Linear Determinate
+### 确定线状
 
 {{"demo": "pages/demos/progress/LinearDeterminate.js"}}
 
-### Linear Buffer
+### 缓冲线状
 
 {{"demo": "pages/demos/progress/LinearBuffer.js"}}
 
-### Linear Query
+### 查询线状
 
 {{"demo": "pages/demos/progress/LinearQuery.js"}}
 
-## Non-standard ranges
+## 非标准范围
 
-The progress components accept a value in the range 0 - 100. This simplifies things for screen-reader users, where these are the default min / max values. Sometimes, however, you might be working with a data source where the values fall outside this range. Here's how you can easily transform a value in any range to a scale of 0 - 100:
+进度组件接受一个0 - 100范围的值。 作为默认的最小 / 最大值，这简化了屏幕阅读用户的使用。 但是有时，你可能会使用值超出这个范围的数据源。 Here's how you can easily transform a value in any range to a scale of 0 - 100:
 
 ```jsx
 // MIN = Minimum expected value
