@@ -61,16 +61,16 @@ components: CircularProgress, LinearProgress
 
 ## 非标准范围
 
-进度组件接受一个0 - 100范围的值。 作为默认的最小 / 最大值，这简化了屏幕阅读用户的使用。 但是有时，你可能会使用值超出这个范围的数据源。 Here's how you can easily transform a value in any range to a scale of 0 - 100:
+进度组件接受一个0 - 100范围的值。 作为默认的最小 / 最大值，这简化了屏幕阅读用户的使用。 但是有时，你可能会使用值超出这个范围的数据源。 这里告诉您如何轻松的将一个任意范围的值转换为0 - 100区间的值。
 
 ```jsx
-// MIN = Minimum expected value
-// MAX = Maximium expected value
+// MIN = 最小值
+// MAX = 最大值
 
-// Function to normalise the values (MIN / MAX could be integrated)
-const normalise = value => (value - MIN) * 100 / (MAX - MIN);
+// 正常化值的函数（MIN / MAX 可相互协调）
+const normalise = value = (value - MIN) * 100 / (MAX - MIN);
 
-// Example component that utilizes the `normalise` function at the point of render.
+// 在render函数中，利用`正常化`函数的示例组件
 function Progress(props) {
   return (
     <React.Fragment>
@@ -81,9 +81,9 @@ function Progress(props) {
 }
 ```
 
-## Delaying appearance
+## 延迟展现
 
-There are [3 important limits](https://www.nngroup.com/articles/response-times-3-important-limits/) to know around response time. The ripple effect of the `ButtonBase` component ensures that the user feels that the system is reacting instantaneously. Normally, no special feedback is necessary during delays of more than 0.1 but less than 1.0 second. After 1.0 second, you can display a loader to keep user's flow of thought uninterrupted.
+关于响应时间，有 [3个重要限制](https://www.nngroup.com/articles/response-times-3-important-limits/)。 The ripple effect of the `ButtonBase` component ensures that the user feels that the system is reacting instantaneously. Normally, no special feedback is necessary during delays of more than 0.1 but less than 1.0 second. After 1.0 second, you can display a loader to keep user's flow of thought uninterrupted.
 
 {{"demo": "pages/demos/progress/DelayingAppearance.js"}}
 
